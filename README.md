@@ -10,4 +10,4 @@ Entry for the [make.fun bounty "The Dog Ate My Homework: Funniest Excuse"](https
 
 ## How it works
 
-`main.js` runs on Node 22, stdlib only, and writes the line above to `entry.txt` in `$MAKEFUN_OUTPUT_DIR`, falling back to `/output` when the variable is unset. The output is exactly 151 characters, a single line, with no trailing newline.
+`main.ts` runs on Node 22, stdlib only, and writes the line above to `entry.txt` in `$MAKEFUN_OUTPUT_DIR`, falling back to `/output` when the variable is unset. The output is exactly 151 characters, a single line, with no trailing newline.
